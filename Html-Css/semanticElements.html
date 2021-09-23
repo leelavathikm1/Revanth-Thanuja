@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+    border: 1px solid;
+}
+header {
+    border: 2px solid;
+    text-align: center;
+    margin: 10px;
+    height: 50px;
+}
+nav {
+    text-align: center;
+    height: 50px;
+    margin: 10px;
+    border: 2px solid;
+}
+div#parent {
+    margin: 10px;
+    overflow: auto;
+}
+div#left {
+    width: 690px;
+    float: left;
+}
+section {
+    border: 2px solid;
+    height: 100px;
+    text-align: center;
+}
+article {
+    border: 2px solid;
+    height: 100px;
+    margin-top: 5px;
+    text-align: center;
+}
+aside {
+    border: 2px solid;
+    width: 480px;
+    float: right;
+    height: 210px;
+    text-align: center;
+}
+footer {
+    border: 2px solid;
+    margin: 10px;
+    height: 50px;
+    text-align: center;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>Header</header>
+        <nav>Nav</nav>
+        <div id="parent">
+            <div id="left">
+                <section>Section</section>
+                <article>article</article>
+            </div>
+            <aside>aside</aside>
+        </div>
+        <footer>Footer</footer>
+    </div>
+</body>
+</html>
